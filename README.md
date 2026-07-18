@@ -215,7 +215,3 @@ The optional section introduced concepts beyond training models from scratch.
 # Week 8 – ChatGPT-style Application Development (Optional)
 
 The Week 8 task, which involves building a ChatGPT-style web application, has not been completed yet. I plan to work on and complete it at a later stage.
-
----
-
-**Course Status:** ✅ Successfully completed the complete 8-week learning roadmap.
