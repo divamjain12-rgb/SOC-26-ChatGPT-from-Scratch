@@ -216,10 +216,6 @@ The optional section introduced concepts beyond training models from scratch.
 
 The Week 8 task, which involves building a ChatGPT-style web application, has not been completed yet. I plan to work on and complete it at a later stage.
 
-# Overall Learning Outcome
-
-By the end of this program, I developed a solid understanding of the complete pipeline involved in building modern language models. Starting from Python fundamentals and neural network basics, I progressed to implementing deep learning models in PyTorch and gained practical exposure to transformer architectures and GPT-style language modeling. The course also introduced concepts such as pretrained models, fine-tuning, and deploying conversational AI applications, providing a comprehensive foundation for further exploration in Large Language Models and Generative AI.
-
 ---
 
 **Course Status:** ✅ Successfully completed the complete 8-week learning roadmap.
