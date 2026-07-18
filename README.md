@@ -1,39 +1,50 @@
-# ChatGPT from Scratch – Progress (Week 1 to Week 5)
+# ChatGPT from Scratch – Learning Summary (8 Weeks)
 
-This repository contains my learning progress while following the **ChatGPT from Scratch** roadmap. The goal of this phase was to build a strong foundation in Python, deep learning concepts, and PyTorch before implementing transformer-based language models.
+## Overview
+
+This repository documents my learning journey through the **ChatGPT from Scratch** program. Over the course of eight weeks, I built a strong foundation in Python, deep learning, PyTorch, and transformer-based language models. The curriculum focused on understanding the fundamental concepts behind modern Large Language Models (LLMs) before implementing a GPT-style model from scratch.
 
 ---
 
-# Week 1 – Python and Data Science Libraries
+# Week 1 – Python & Data Science Fundamentals
+
+The first week focused on strengthening the programming skills required for deep learning and natural language processing.
 
 ## Topics Covered
-- Python fundamentals and syntax
-- Variables, data types, loops, functions, and classes
-- NumPy arrays and vectorized operations
-- Pandas for data manipulation and preprocessing
-- Data visualization using Matplotlib
+
+- Python syntax and programming fundamentals
+- Variables, data types, loops, functions, classes, and modules
+- NumPy for efficient numerical computations
+- Pandas for data loading, preprocessing, and analysis
+- Matplotlib for data visualization
+- Development environment setup using VS Code
 
 ## Key Learnings
-- Efficient numerical computation using NumPy
-- Loading, cleaning, and analyzing datasets with Pandas
-- Creating line plots, bar charts, histograms, and scatter plots
+
 - Writing clean and modular Python code
+- Working with multidimensional arrays using NumPy
+- Data manipulation using Pandas DataFrames
+- Visualizing datasets through various plots
+- Understanding vectorized computations for efficient numerical processing
 
 ---
 
-# Week 2 & Week 3 – Neural Networks
+# Week 2 – Foundations of Neural Networks
+
+This week introduced the mathematical and conceptual foundations of machine learning and neural networks.
 
 ## Topics Covered
-- Fundamentals of Machine Learning
-- Artificial Neural Networks
-- Perceptrons and Multi-Layer Perceptrons (MLPs)
+
+- Machine Learning fundamentals
+- Artificial Neural Networks (ANNs)
+- Perceptrons
+- Multi-Layer Perceptrons (MLPs)
 - Forward Propagation
-- Backpropagation
-- Gradient Descent
-- Loss Functions
 - Activation Functions
+- Loss Functions
 
 ## Activation Functions Studied
+
 - Sigmoid
 - Tanh
 - ReLU
@@ -41,98 +52,235 @@ This repository contains my learning progress while following the **ChatGPT from
 - Softmax
 
 ## Loss Functions
+
 - Mean Squared Error (MSE)
 - Binary Cross Entropy
 - Categorical Cross Entropy
 
-## Optimizers
-- Gradient Descent
-- Stochastic Gradient Descent (SGD)
-- Mini-Batch Gradient Descent
-
 ## Key Learnings
-- How neural networks learn from data
-- Importance of weight initialization
-- Role of activation functions
-- Backpropagation using the chain rule
-- Model training and optimization
-- Preventing overfitting using validation
+
+- How neurons process information
+- Importance of nonlinear activation functions
+- Relationship between predictions and loss
+- Basic architecture of feed-forward neural networks
 
 ---
 
-# Week 4 – Deep Learning Concepts
+# Week 3 – Neural Network Training
+
+The focus shifted toward how neural networks actually learn from data.
 
 ## Topics Covered
-- Deeper understanding of neural network training
-- Vanishing and Exploding Gradients
+
+- Backpropagation
+- Chain Rule
+- Gradient Descent
+- Stochastic Gradient Descent (SGD)
+- Mini-Batch Gradient Descent
 - Weight Initialization
+- Learning Rate
+- Model Optimization
+
+## Key Learnings
+
+- Computing gradients through backpropagation
+- Updating model parameters using gradient descent
+- Understanding convergence during training
+- Importance of learning rate selection
+- Monitoring training and validation performance
+
+---
+
+# Week 4 – Advanced Deep Learning Concepts
+
+This week expanded upon neural network optimization techniques and best practices for training deeper models.
+
+## Topics Covered
+
+- Vanishing Gradient Problem
+- Exploding Gradient Problem
+- Xavier and He Initialization
 - Batch Normalization
-- Regularization
 - Dropout
+- Regularization
 - Hyperparameter Tuning
 - Learning Rate Scheduling
 
 ## Key Learnings
-- Improving model convergence
-- Stabilizing training using Batch Normalization
-- Preventing overfitting using Dropout
-- Choosing appropriate hyperparameters
-- Understanding the effect of learning rate on optimization
+
+- Improving stability during training
+- Preventing overfitting
+- Selecting suitable hyperparameters
+- Understanding optimization strategies for deep neural networks
+- Building more robust and generalizable models
 
 ---
 
 # Week 5 – Introduction to PyTorch
 
+This week transitioned from theoretical concepts to practical implementation using PyTorch.
+
 ## Topics Covered
-- PyTorch Tensors
+
+- PyTorch tensors
+- Tensor operations
 - Automatic Differentiation (Autograd)
 - Computational Graphs
-- Building Neural Networks using `torch.nn`
-- Loss Functions
+- torch.nn Module
 - Optimizers
-- Training Loop
-- Model Evaluation
+- Loss Functions
+- Dataset and DataLoader
+- Training and Evaluation Loops
 
 ## Practical Skills
-- Creating tensors
-- Tensor operations
-- Building feed-forward neural networks
-- Forward and backward passes
-- Updating model parameters using optimizers
+
+- Creating and manipulating tensors
+- Building neural networks using nn.Module
+- Implementing forward propagation
+- Computing gradients automatically
+- Training models using optimizers such as SGD and Adam
 - Saving and loading trained models
 
 ## Key Learnings
-- PyTorch workflow for deep learning
-- Automatic gradient computation
-- Model training pipeline
+
+- End-to-end deep learning workflow
 - Difference between training and evaluation modes
+- Automatic gradient computation
+- Modular model implementation using PyTorch
+
+---
+
+# Week 6 – Building a GPT-style Language Model
+
+The sixth week focused on implementing a simplified GPT-like language model from scratch.
+
+## Topics Covered
+
+- Character-level language modeling
+- Text preprocessing
+- Tokenization
+- Vocabulary creation
+- Embedding layers
+- Transformer architecture overview
+- Self-Attention mechanism
+- Multi-Head Attention
+- Feed Forward Networks
+- Residual Connections
+- Layer Normalization
+- Positional Encoding
+- Decoder-only Transformer
+- Training a language model
+- Text generation
+
+## Final Project
+
+Implemented a GPT-style language model by:
+
+- Preparing and cleaning a text dataset
+- Building the model architecture
+- Training the transformer
+- Generating text using the trained model
+- Evaluating generated outputs
+
+## Key Learnings
+
+- Complete workflow of building a transformer-based language model
+- Understanding how modern LLMs predict the next token
+- Importance of attention mechanisms in capturing context
+- Practical experience in training sequence models
+
+---
+
+# Week 7 – Exploring Pretrained Models (Optional)
+
+The optional section introduced concepts beyond training models from scratch.
+
+## Topics Covered
+
+- Pretrained language models
+- Transfer Learning
+- Fine-tuning
+- Instruction Fine-tuning
+- Model adaptation
+- Prompt engineering basics
+
+## Key Learnings
+
+- Advantages of pretrained models
+- Difference between pretraining and fine-tuning
+- Using existing language models for downstream tasks
+
+---
+
+# Week 8 – ChatGPT-style Application Development (Optional)
+
+The final week focused on deploying language models into usable applications.
+
+## Topics Covered
+
+- Building a ChatGPT-style web application
+- User interface integration
+- Connecting frontend with backend
+- Running inference using trained models
+- Basic deployment concepts
+
+## Key Learnings
+
+- Integrating language models into real-world applications
+- Building interactive AI systems
+- Understanding the complete LLM development pipeline
 
 ---
 
 # Skills Acquired
 
-- Python Programming
+## Programming
+
+- Python
+- Object-Oriented Programming
+
+## Data Science
+
 - NumPy
 - Pandas
 - Matplotlib
+
+## Deep Learning
+
 - Neural Networks
-- Forward & Backpropagation
+- Forward Propagation
+- Backpropagation
 - Gradient Descent
-- Deep Learning Fundamentals
-- PyTorch
-- Model Training
-- Hyperparameter Tuning
+- Optimization Algorithms
+- Activation Functions
+- Regularization Techniques
+
+## PyTorch
+
+- Tensor Operations
+- Autograd
+- Neural Network Modules
+- Training Pipelines
+- Model Saving and Loading
+
+## Transformer & LLM Concepts
+
+- Tokenization
+- Embeddings
+- Self-Attention
+- Multi-Head Attention
+- Feed Forward Networks
+- Positional Encoding
+- Decoder Architecture
+- Language Modeling
+- Text Generation
 
 ---
 
-# Next Steps
+# Overall Learning Outcome
 
-- Build a Transformer architecture from scratch
-- Learn Self-Attention and Multi-Head Attention
-- Implement Positional Encoding
-- Train a GPT-style language model
-- Fine-tune and evaluate language models
+By the end of this program, I developed a solid understanding of the complete pipeline involved in building modern language models. Starting from Python fundamentals and neural network basics, I progressed to implementing deep learning models in PyTorch and gained practical exposure to transformer architectures and GPT-style language modeling. The course also introduced concepts such as pretrained models, fine-tuning, and deploying conversational AI applications, providing a comprehensive foundation for further exploration in Large Language Models and Generative AI.
 
 ---
 
-**Status:** ✅ Completed learning up to Week 5
+**Course Status:** ✅ Successfully completed the complete 8-week learning roadmap.
