@@ -214,68 +214,7 @@ The optional section introduced concepts beyond training models from scratch.
 
 # Week 8 – ChatGPT-style Application Development (Optional)
 
-The final week focused on deploying language models into usable applications.
-
-## Topics Covered
-
-- Building a ChatGPT-style web application
-- User interface integration
-- Connecting frontend with backend
-- Running inference using trained models
-- Basic deployment concepts
-
-## Key Learnings
-
-- Integrating language models into real-world applications
-- Building interactive AI systems
-- Understanding the complete LLM development pipeline
-
----
-
-# Skills Acquired
-
-## Programming
-
-- Python
-- Object-Oriented Programming
-
-## Data Science
-
-- NumPy
-- Pandas
-- Matplotlib
-
-## Deep Learning
-
-- Neural Networks
-- Forward Propagation
-- Backpropagation
-- Gradient Descent
-- Optimization Algorithms
-- Activation Functions
-- Regularization Techniques
-
-## PyTorch
-
-- Tensor Operations
-- Autograd
-- Neural Network Modules
-- Training Pipelines
-- Model Saving and Loading
-
-## Transformer & LLM Concepts
-
-- Tokenization
-- Embeddings
-- Self-Attention
-- Multi-Head Attention
-- Feed Forward Networks
-- Positional Encoding
-- Decoder Architecture
-- Language Modeling
-- Text Generation
-
----
+The Week 8 task, which involves building a ChatGPT-style web application, has not been completed yet. I plan to work on and complete it at a later stage.
 
 # Overall Learning Outcome
 
