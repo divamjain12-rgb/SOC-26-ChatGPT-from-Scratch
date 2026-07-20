@@ -191,27 +191,6 @@ Implemented a GPT-style language model by:
 
 ---
 
-# Week 7 – Exploring Pretrained Models (Optional)
+# Week 7 & 8 – Exploring Pretrained Models and ChatGPT-style Application Development (Optional)
 
-The optional section introduced concepts beyond training models from scratch.
-
-## Topics Covered
-
-- Pretrained language models
-- Transfer Learning
-- Fine-tuning
-- Instruction Fine-tuning
-- Model adaptation
-- Prompt engineering basics
-
-## Key Learnings
-
-- Advantages of pretrained models
-- Difference between pretraining and fine-tuning
-- Using existing language models for downstream tasks
-
----
-
-# Week 8 – ChatGPT-style Application Development (Optional)
-
-The Week 8 task, which involves building a ChatGPT-style web application, has not been completed yet. I plan to work on and complete it at a later stage.
+The optional content covered in Weeks 7 and 8, including exploring pretrained models, instruction fine-tuning, and building a ChatGPT-style web application, has not been completed yet. I plan to revisit and complete these topics at a later stage.
